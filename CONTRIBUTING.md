@@ -1,174 +1,110 @@
 [![Bolt Open Source Codebase](./public/social_preview_index.jpg)](https://bolt.new)
-Перейти к основному содержимому
-Главная страница Boltсветовой логотиптемный логотип Центр поддержки Центр поддержки
 
-Поиск...
-Ctrl K
-Начните работу с Bolt
-Введение в Bolt
-Краткое руководство пользователя
-Видеоуроки
-Работа в Bolt
-Агенты и модели
-Резервное копирование и восстановление
-Использование окна чата
-Использование CodeView
-Управление проектами
-Персональные настройки
-Настройки проекта
-Поддерживаемые технологии
-Болтовое облако
-Что такое Bolt Cloud?
+> Welcome to the **Bolt** open-source codebase! This repo contains a simple example app using the core components from bolt.new to help you get started building **AI-powered software development tools** powered by StackBlitz’s **WebContainer API**.
 
-База данных
-Обзор
-Расширенные настройки
-Аутентификация
-Хранилище файлов
-Журналы
-Секреты
-Безопасность
-Функции сервера
-Таблицы
-Управление пользователями
-Часто задаваемые вопросы
+### Why Build with Bolt + WebContainer API
 
-Домены
+By building with the Bolt + WebContainer API you can create browser-based applications that let users **prompt, run, edit, and deploy** full-stack web apps directly in the browser, without the need for virtual machines. With WebContainer API, you can build apps that give AI direct access and full control over a **Node.js server**, **filesystem**, **package manager** and **dev terminal** inside your users browser tab. This powerful combination allows you to create a new class of development tools that support all major JavaScript libraries and Node packages right out of the box, all without remote environments or local installs.
 
-Хостинг
-Передовые методы
-Спланируйте свое приложение
-Режимы планирования и обсуждения
-Максимально повысить эффективность токенов
-Оперативно и эффективно
-Использование болта с другими инструментами
-Выставка мобильных приложений
-Figma для дизайна
-GitHub для контроля версий
-Google SSO для аутентификации
-Импорт из Любимого
-Netlify для хостинга
-Stripe для платежей
-Supabase для баз данных
-Учетные записи и подписки
-Счета
-Выставление счетов
-Корпоративное и коммерческое
-Токены
-Реферальная программа
-Команды
-Обзор
-Планы и выставление счетов
-Управление командами
-Управление проектом
-Поиск неисправностей
-Проблемы со входом в систему
-Проблемы интеграции
-Проблемы с болтами
-Дополнительная помощь
-Связаться со службой поддержки
-Понятия и контекст
-Введение в базы данных
-Введение в программу магистратуры в области права (LLM).
-История версий, система контроля версий и GitHub
-Главная страница Boltсветовой логотиптемный логотип
+### What’s the Difference Between Bolt (This Repo) and [Bolt.new](https://bolt.new)?
 
-Поиск...
-Ctrl K
-Примечания к выпуску
-Статус болта
+- **Bolt.new**: This is the **commercial product** from StackBlitz—a hosted, browser-based AI development tool that enables users to prompt, run, edit, and deploy full-stack web applications directly in the browser. Built on top of the [Bolt open-source repo](https://github.com/stackblitz/bolt.new) and powered by the StackBlitz **WebContainer API**.
 
-Поиск...
+- **Bolt (This Repo)**: This open-source repository provides the core components used to make **Bolt.new**. This repo contains the UI interface for Bolt as well as the server components, built using [Remix Run](https://remix.run/). By leveraging this repo and StackBlitz’s **WebContainer API**, you can create your own AI-powered development tools and full-stack applications that run entirely in the browser.
 
-Навигация
-База данных
-База данных
-Примечания к выпуску
-Статус болта
+# Get Started Building with Bolt
 
-На этой странице
-Настройки базы данных
-Преимущества базы данных Bolt
-Создание и использование баз данных с помощью Claude Agent
-Попросите Bolt не создавать базу данных.
-Восстановление истории версий и базы данных.
-Базы данных, автоматически приостановленные
-Проекты с базами данных Supabase, опубликованные до 30 сентября 2025 года.
-Просмотреть ограничения базы данных болтов
-Как Bolt предоставляет ресурсы для работы с базой данных
-База данных
-База данных
-Создавайте и управляйте базами данных в Bolt без необходимости использования сторонних инструментов.
+Bolt combines the capabilities of AI with sandboxed development environments to create a collaborative experience where code can be developed by the assistant and the programmer together. Bolt combines [WebContainer API](https://webcontainers.io/api) with [Claude Sonnet 3.5](https://www.anthropic.com/news/claude-3-5-sonnet) using [Remix](https://remix.run/) and the [AI SDK](https://sdk.vercel.ai/).
 
-Bolt упрощает добавление функциональности базы данных в ваше приложение без необходимости создания дополнительной инфраструктуры. Вы получаете готовую к использованию базу данных, когда она требуется вашему проекту, что позволяет вам сосредоточиться на разработке функций, а не на настройке серверов.
-​
-Настройки базы данных
-Скриншот пунктов меню настроек базы данных в Bolt.
-В настройках проекта Bolt есть несколько разделов, позволяющих управлять данными проекта и связанными с ним функциями. Некоторые из них находятся в левом меню настроек проекта, а другие — в верхней части экрана базы данных (таблиц) . Щелкните любой пункт ниже, чтобы узнать больше об этой теме.
-Расширенные настройки
-Аутентификация
-Хранилище файлов
-Журналы
-Секреты
-Аудит безопасности
-Функции сервера
-Таблицы
-Управление пользователями
-Часто задаваемые вопросы
-​
-Преимущества базы данных Bolt
-Использование базы данных Bolt помогает быстро запускать более сложные веб-приложения:
-Неограниченное количество баз данных: создавайте столько баз данных, сколько необходимо.
-Никакой ручной настройки: забудьте о настройке серверов или хостинга, Bolt сделает это за вас.
-Встроенная система управления аутентификацией: легко добавьте в свой проект возможности регистрации пользователей.
-Один центр мониторинга: отслеживайте безопасность и журналы событий, не переключаясь между инструментами.
-Перспективные подключения: Легко подключайте внешние инструменты в будущем для расширенного управления.
-Эта конфигурация идеально подходит для быстрой разработки, тестирования и масштабирования вашего приложения.
-If you’re new to the concept of databases and their importance in web development, you can learn more in our Introduction to databases article.
-​
-Creating and Using Databases with Claude Agent
-When working with Claude Agent, new Bolt databases are created automatically based on your project’s needs or when you explicitly ask the agent to create a database or a database-related feature. This makes it easy to get started without manually setting anything up. If you are using v1 Agent (legacy), you can inherit a Bolt database that was created with Claude Agent, but you cannot create new databases while working in v1 Agent. For new projects, Bolt strongly recommends using Claude Agent to create and manage Bolt databases for you. This approach ensures your projects stay up to date with the latest features and are easier to maintain.
-See Agents to learn more about the differences between agents and how to switch.
-​
-Ask Bolt not to create a database
-If you don’t want Bolt to provision a database, you can explicitly request that it not do so. For example, when submitting a prompt, add the instruction: Don't use a database, I want to use local storage for this app.
-​
-Version history and database restores
-Bolt’s Version History feature currently does not support database restores.
-Restoring to an earlier project version will not change your current databases.
-​
-Automatically paused databases
-If your project’s Bolt database hasn’t been used for six days or more, it may be automatically paused to conserve resources. When you next open your project, you’ll see a message letting you know that the database is being restored. This process usually only takes a few minutes. This is a normal, routine operation. Please wait for the restoration to finish before making any changes to your project to avoid potential issues.
-​
-Projects with Supabase databases published prior to September 30, 2025
-Before September 30, 2025, Bolt projects required you to use your own Supabase account for databases. After this date, new projects created with Claude Agent use Bolt databases by default. Bolt does not support switching existing projects from Supabase to Bolt Database.
-If you have an existing project using Supabase databases:
-Keep using Supabase for your databases.
-Supabase databases cannot be converted into Bolt databases.
-You can switch from v1 Agent (legacy) to Claude Agent at any time. Your Supabase databases will still work. The only change you may notice is that your chat history window will reset when you switch.
-If you are starting a new project:
-Claude Agent will create and use Bolt databases by default.
-You can migrate a Bolt database to Supabase later if you want.
-Projects created with v1 Agent (legacy) only support Supabase databases. These must be added after the initial build. The v1 Agent (legacy) cannot create Bolt databases.
-Подробнее о переключении между агентом Клода и агентом версии 1 (устаревшей) в Bolt см . в разделе «Агенты» .
-​
-Просмотреть ограничения базы данных болтов
-Ограничения, связанные с базой данных, можно посмотреть в разделе «Облако» в личных настройках. Bolt Cloud 1 Pn Чтобы просмотреть лимиты, выполните следующие действия:
-Нажмите на значок своего профиля в правом верхнем углу экрана, затем нажмите «Настройки» .
-Нажмите «Облако».
-Просмотрите строки таблицы, относящиеся к базе данных.
-​
-Как Bolt предоставляет ресурсы для работы с базой данных
-При создании проекта Bolt может автоматически создать базу данных, если ваше приложение этого требует или если вы явно запросите её. Например, если вы создаёте приложение-викторину, Bolt настроит базу данных для хранения вопросов и ответов. Такие функции, как аутентификация пользователей, могут не добавляться автоматически, но вы можете указать Bolt включить регистрацию и вход в систему, если это необходимо вашему приложению. Например:Create user accounts via email signup and login, then add account sign in/log out buttons in the top right corner of the home page.
-Была ли эта страница полезной?
+### WebContainer API
 
-ДаНет
-Что такое Bolt Cloud? Расширенные настройки
-Главная страница Boltсветовой логотиптемный логотип
-x github discord linkedin youtube reddit instagram
-Условия использования Политика конфиденциальности
-x github discord linkedin youtube reddit instagram
-Помощник
+Bolt uses [WebContainers](https://webcontainers.io/) to run generated code in the browser. WebContainers provide Bolt with a full-stack sandbox environment using [WebContainer API](https://webcontainers.io/api). WebContainers run full-stack applications directly in the browser without the cost and security concerns of cloud hosted AI agents. WebContainers are interactive and editable, and enables Bolt's AI to run code and understand any changes from the user.
 
-Ответы генерируются с помощью искусственного интеллекта и могут содержать ошибки.
-Задайте вопрос...
+The [WebContainer API](https://webcontainers.io) is free for personal and open source usage. If you're building an application for commercial usage, you can learn more about our [WebContainer API commercial usage pricing here](https://stackblitz.com/pricing#webcontainer-api).
+
+### Remix App
+
+Bolt is built with [Remix](https://remix.run/) and
+deployed using [CloudFlare Pages](https://pages.cloudflare.com/) and
+[CloudFlare Workers](https://workers.cloudflare.com/).
+
+### AI SDK Integration
+
+Bolt uses the [AI SDK](https://github.com/vercel/ai) to integrate with AI
+models. At this time, Bolt supports using Anthropic's Claude Sonnet 3.5.
+You can get an API key from the [Anthropic API Console](https://console.anthropic.com/) to use with Bolt.
+Take a look at how [Bolt uses the AI SDK](https://github.com/stackblitz/bolt.new/tree/main/app/lib/.server/llm)
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Node.js (v20.15.1)
+- pnpm (v9.4.0)
+
+## Setup
+
+1. Clone the repository (if you haven't already):
+
+```bash
+git clone https://github.com/stackblitz/bolt.new.git
+```
+
+2. Install dependencies:
+
+```bash
+pnpm install
+```
+
+3. Create a `.env.local` file in the root directory and add your Anthropic API key:
+
+```
+ANTHROPIC_API_KEY=XXX
+```
+
+Optionally, you can set the debug level:
+
+```
+VITE_LOG_LEVEL=debug
+```
+
+**Important**: Never commit your `.env.local` file to version control. It's already included in .gitignore.
+
+## Available Scripts
+
+- `pnpm run dev`: Starts the development server.
+- `pnpm run build`: Builds the project.
+- `pnpm run start`: Runs the built application locally using Wrangler Pages. This script uses `bindings.sh` to set up necessary bindings so you don't have to duplicate environment variables.
+- `pnpm run preview`: Builds the project and then starts it locally, useful for testing the production build. Note, HTTP streaming currently doesn't work as expected with `wrangler pages dev`.
+- `pnpm test`: Runs the test suite using Vitest.
+- `pnpm run typecheck`: Runs TypeScript type checking.
+- `pnpm run typegen`: Generates TypeScript types using Wrangler.
+- `pnpm run deploy`: Builds the project and deploys it to Cloudflare Pages.
+
+## Development
+
+To start the development server:
+
+```bash
+pnpm run dev
+```
+
+This will start the Remix Vite development server.
+
+## Testing
+
+Run the test suite with:
+
+```bash
+pnpm test
+```
+
+## Deployment
+
+To deploy the application to Cloudflare Pages:
+
+```bash
+pnpm run deploy
+```
+
+Make sure you have the necessary permissions and Wrangler is correctly configured for your Cloudflare account.
